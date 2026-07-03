@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns00000100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
     <layout name="npnxnanbsnfns00000100001" font="Lato" controllayout="npnxnanbsnfns00000100001" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
     <layout name="pxabnsnfns00000100001" font="Lato" controllayout="pxabnsnfns00000100001" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
@@ -96,6 +96,7 @@
           <option name="placement" value="100" />
           <option name="backgroundColor" value="#000000FF" />
           <option name="color" value="#FFFFFFFF" />
+          <option name="textShadow" value="1" />
         </options>
       </optiongroup>
     </optiongroups>
@@ -1608,6 +1609,7 @@
       <string id="transcript_auto_scroll">Autoscroll</string>
       <string id="transcript_chk">Notes</string>
       <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_mobile_label">Transcript</string>
       <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
       <string id="video_transcript_select_track">Select track</string>
       <string id="video_transcript_title">Transcripts</string>
@@ -1636,27 +1638,28 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6CE8e3oCyeH" displaytext="Intro Scene" expand="true" type="slide">
+        <slidelink slideid="_player.6CE8e3oCyeH" displaytext="Intro Scene" expand="true" type="slide" translationId="6JakCb4hERg">
           <links>
-            <slidelink slideid="_player.6CE8e3oCyeH.5fAmEBDZ5z8" displaytext="Better Meds Pharmacy eLearning" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6KkhAsxPJmx" displaytext="Completing this Course" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.5ptaE6lW9Tn" displaytext="Accessing Better Meds" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6DFNPtrfq5V" displaytext="Searching for a Patient" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.69LzmTwHAH3" displaytext="My Dashboard" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6Bh1LnCEksY" displaytext="Allergies" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6WL7aUR0RJv" displaytext="MAR Chart&#xA;Encounter Selection" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6JOa0fRuntp" displaytext="MAR Chart Icons" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6UYbQmWg2bV" displaytext="Medications Historic" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.5vxEHQ0ZHHS" displaytext="Pharmacist Review" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.5dDjUSBmDhr" displaytext="Pharmacy Priority List" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6kZ8eiZq0YO" displaytext="Ordering Medications" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.65xKp2wsc6g" displaytext="Supply Request Task List" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.5iJSb2R3ZLO" displaytext="Supply Request Task List" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6qEYQYWbiam" displaytext="Supply Request " expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6e5Bsdc2sa5" displaytext="Medication Reconciliation " expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6iuTzaCmmM0" displaytext="Consent to Treatment" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.6PbC0oQaJTy" displaytext="Need a Reminder?" expand="false" type="slide" />
-            <slidelink slideid="_player.6CE8e3oCyeH.5fL4d9W1b1i" displaytext="Next Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.6CE8e3oCyeH.5fAmEBDZ5z8" displaytext="Better Meds Pharmacy eLearning" expand="false" type="slide" translationId="5t85KjxS0Vc" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6KkhAsxPJmx" displaytext="Completing this Course" expand="false" type="slide" translationId="6BUfMilIHiH" />
+            <slidelink slideid="_player.6CE8e3oCyeH.5j3euZTiIk5" displaytext="Video Guides" expand="false" type="slide" translationId="5o0CKx6vtPP" />
+            <slidelink slideid="_player.6CE8e3oCyeH.5ptaE6lW9Tn" displaytext="Accessing Better Meds" expand="false" type="slide" translationId="6171sZY1B6i" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6DFNPtrfq5V" displaytext="Searching for a Patient" expand="false" type="slide" translationId="6Zo6lCTfJKM" />
+            <slidelink slideid="_player.6CE8e3oCyeH.69LzmTwHAH3" displaytext="My Dashboard" expand="false" type="slide" translationId="5daDqxE0JRQ" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6Bh1LnCEksY" displaytext="Allergies" expand="false" type="slide" translationId="6bzrrxzrzqc" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6WL7aUR0RJv" displaytext="MAR Chart&#xA;Encounter Selection" expand="false" type="slide" translationId="6E6jmQXMWcw" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6JOa0fRuntp" displaytext="MAR Chart Icons" expand="false" type="slide" translationId="5fzbnmXA7de" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6UYbQmWg2bV" displaytext="Medications Historic" expand="false" type="slide" translationId="5jaVLxxYDx5" />
+            <slidelink slideid="_player.6CE8e3oCyeH.5vxEHQ0ZHHS" displaytext="Pharmacist Review" expand="false" type="slide" translationId="5vyMz5DwKx7" />
+            <slidelink slideid="_player.6CE8e3oCyeH.5dDjUSBmDhr" displaytext="Pharmacy Priority List" expand="false" type="slide" translationId="5YYE4oYjlv1" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6kZ8eiZq0YO" displaytext="Ordering Medications" expand="false" type="slide" translationId="5jgBQmMeyfA" />
+            <slidelink slideid="_player.6CE8e3oCyeH.65xKp2wsc6g" displaytext="Supply Request Task List" expand="false" type="slide" translationId="5eXbIGabniE" />
+            <slidelink slideid="_player.6CE8e3oCyeH.5iJSb2R3ZLO" displaytext="Supply Request Task List" expand="false" type="slide" translationId="5lUqRaE6qKP" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6qEYQYWbiam" displaytext="Supply Request " expand="false" type="slide" translationId="5WZo3qWWpyJ" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6e5Bsdc2sa5" displaytext="Medication Reconciliation " expand="false" type="slide" translationId="5eQ2UVkTSxj" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6iuTzaCmmM0" displaytext="Consent to Treatment" expand="false" type="slide" translationId="5djeASKVAN6" />
+            <slidelink slideid="_player.6CE8e3oCyeH.6PbC0oQaJTy" displaytext="Need a Reminder?" expand="false" type="slide" translationId="5ZvUbrKvy7V" />
+            <slidelink slideid="_player.6CE8e3oCyeH.5fL4d9W1b1i" displaytext="Next Steps" expand="false" type="slide" translationId="5fNDNTmA7N6" />
           </links>
         </slidelink>
       </links>
